@@ -1,11 +1,9 @@
 import pygame as pg
-from draw import Draw
 
 class Solve:
 
     def __init__(self, window, X_TILES, Y_TILES, WIDTH, node_color, nodes, draw, clock, FPS):
         self.window = window
-        # self.SIZE = SIZE
         self.X_TILES = X_TILES
         self.Y_TILES = Y_TILES
         self.WIDTH = WIDTH
